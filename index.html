@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Personal Homepage &mdash; Alexander O'Connor.</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="./css/kube.css" /> 	
+	<link rel="stylesheet" type="text/css" href="./css/master.css" /> 		
+	<link rel="stylesheet" type="text/css" href="./css/slabtext.css" /> 		
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Fresca|Changa+One' rel='stylesheet' type='text/css'>	
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="page">
+        <div id="container">
+        <div class="row bg-blue">
+            <div class = "twofifth">
+                <p> <h1>Dr. Alexander O'Connor</h1></p>
+            </div>
+            <div class = "fifth">
+                <p><figure class="image-right">
+                    <img src="img/photo.png" alt="My Photo" id="photo" / >
+                    </figure></p>
+            </div>
+            <div class="twofifth">
+                <p>
+                <ul class="no-bullet">
+                    <li>I am a Research Fellow at the <a href="http://kdeg.scss.tcd.ie">Knowledge &amp; Data Engineering Group</a>, <a href="http://www.tcd.ie">Trinity College Dublin</a>.</li>
+                    <li>My main project is the <a href="http://www.cngl.ie">CNGL</a>, where I work on <em>Personalisation in Intelligent Content.</em></li>
+                    <li>My main research interests are in Adaptivity, Semantics, Social Networks and Web Technologies.</li>
+                </ul></p>
+                
+            </div>
+
+        </div>
+	    <div class="row">
+            <div class="quarter bg-lightblue center">
+                <p class="end center">
+                <i class="icon-quote-left icon-4x"></i> <br /> 
+                    <a href="http class="end"://www.oconnoat.com/blog">My Personal Blog</a>
+                </p>
+            </div> 
+            <div class="quarter bg-lightblue">
+                <p class="end center">
+                <i class="icon-twitter icon-4x"></i> <br />
+                    <a href="http class="end"://www.twitter.com/uberalex"> @uberalex</a>
+                </p> 
+            </div>    
+            <div class="quarter bg-lightblue">
+                <p class="end center"> 
+                <i class="icon-github icon-4x"></i> <br />
+                    <a href="http class="end"://www.github.com/uberalex"> Github </a>
+                </p>
+            </div>    
+            <div class="quarter bg-lightblue">
+                <p class="end center">
+                <i class="icon-camera-retro icon-4x"></i> <br />
+                    <a href="http class="end"://www.instagram.com/uberalex">Instagram </a>
+                </p>
+            </div>    
+
+        </div>
+    </div>
+        <footer id="footer">Copyright &copy; 2013 Alexander O'Connor. </footer>
+</div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>	
+    <script src="./js/jquery.slabtext.min.js"></script>
+    <script>
+
+        $(function(){
+            $("h1").slabText({
+                // Don't slabtext the headers if the viewport is under 380px
+                "viewportBreakpoint":380
+            });
+        });
+    </script>
+</body>
+</html>

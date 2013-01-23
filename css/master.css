@@ -1,0 +1,68 @@
+/* =Typography
+-----------------------------------------------------------------------------*/
+body {
+font-family: 'Fresca', sans-serif;
+}
+	
+/* =Links
+-----------------------------------------------------------------------------*/
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+#page {
+	width: 940px;
+	padding: 0 10px;
+	margin: 24px auto;
+}
+
+.bg-blue {
+    background-color:#7e9ec7;
+}
+.bg-blue a{
+    color: #B0C4D4;
+}
+.bg-lightblue {background-color:#B0C4D4}
+
+#container {
+    margin-top: 25%;
+    width: 100%;
+}
+.margin{
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+}
+.center{
+    text-align: center;
+}
+.no-bullet{
+    list-style:none;
+}
+.no-bullet li{
+    margin-bottom: 0.5em;
+}
+#footer{
+    color: #999;
+}
+/* =Header
+-----------------------------------------------------------------------------*/
+
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+
+/* =Misc
+-----------------------------------------------------------------------------*/
+ img#photo {
+     display:block;
+    width: 128px;
+    margin-left:auto;
+    margin-right: auto;
+} 
+h1 {
+    font-family: 'Changa One', serif;	
+}
+/* =Footer
+-----------------------------------------------------------------------------*/
