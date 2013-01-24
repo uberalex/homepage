@@ -2,6 +2,7 @@
 -----------------------------------------------------------------------------*/
 body {
 font-family: 'Fresca', sans-serif;
+background-color:#DDD;
 }
 	
 /* =Links
@@ -20,7 +21,7 @@ font-family: 'Fresca', sans-serif;
     background-color:#7e9ec7;
 }
 .bg-blue a{
-    color: #B0C4D4;
+    color: #DDD;
 }
 .bg-lightblue {background-color:#B0C4D4}
 
@@ -32,6 +33,11 @@ font-family: 'Fresca', sans-serif;
    display: block;
    margin-left: auto;
    margin-right: auto; 
+}
+.topmargin{
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: justify;
 }
 .center{
     text-align: center;
@@ -60,9 +66,25 @@ font-family: 'Fresca', sans-serif;
     width: 128px;
     margin-left:auto;
     margin-right: auto;
+    border: 10px solid #DDD; 
+    transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Safari and Chrome */
+    -o-transform: rotate(-5deg); /* Opera */
+    -moz-transform: rotate(-5deg); /* Firefox */
 } 
 h1 {
+    margin-left: 0.5em;
+    transform: rotate(5deg);
+-ms-transform: rotate(5deg); /* IE 9 */
+-webkit-transform: rotate(5deg); /* Safari and Chrome */
+-o-transform: rotate(5deg); /* Opera */
+-moz-transform: rotate(5deg); /* Firefox */
     font-family: 'Changa One', serif;	
+}
+.shadow
+{
+box-shadow: 5px 5px 5px #888888;
 }
 /* =Footer
 -----------------------------------------------------------------------------*/
