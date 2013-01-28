@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Personal Homepage &mdash; Alexander O'Connor.</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="./css/kube.css" /> 	
+	<link rel="stylesheet" type="text/css" href="./css/master.css" /> 		
+	<link rel="stylesheet" type="text/css" href="./css/slabtext.css" /> 		
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Fresca|Changa+One' rel='stylesheet' type='text/css'>	
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="page">
+        <div id="container">
+        <div class="row shadow bg-blue">
+            <div class = "twofifth">
+                <p><h1>Dr. Alexander O'Connor</h1></p>
+            </div>
+            <div class="fifth">
+                <p><figure class="image-right">
+                    <img src="img/photo.png" alt="My Photo" id="photo" / >
+                    </figure></p>
+            </div>
+            <div class="twofifth">
+                <p class="lead end topmargin">
+                I am a Research Fellow at the <a href="http://kdeg.scss.tcd.ie">Knowledge &amp; Data Engineering Group</a>, <a href="http://www.tcd.ie">Trinity College Dublin</a>.<br />
+                My main project is the <a href="http://www.cngl.ie">CNGL</a>, where I work on <em>Personalisation in Intelligent Content.</em><br />
+                My main research interests are in Adaptivity, Semantics, Social Networks and Web Technologies.<br />
+                </p> 
+            </div>
+
+        </div>
+	    <div class="row">
+            <div class="quarter bg-lightblue shadow">
+                <p class="end center">
+                <i class="icon-quote-left icon-4x"></i> <br /> 
+                    <a href="http://www.oconnoat.com/blog">My Personal Blog</a>
+                </p>
+            </div> 
+            <div class="shadow quarter bg-lightblue">
+                <p class="end center">
+                <i class="icon-twitter icon-4x"></i> <br />
+                    <a href="http://www.twitter.com/uberalex"> @uberalex</a>
+                </p> 
+            </div>    
+            <div class="shadow quarter bg-lightblue">
+                <p class="end center"> 
+                <i class="icon-github icon-4x"></i> <br />
+                    <a href="http://www.github.com/uberalex"> Github </a>
+                </p>
+            </div>    
+            <div class="shadow quarter bg-lightblue">
+                <p class="end center">
+                <i class="icon-camera-retro icon-4x"></i> <br />
+                    <a href="http://www.instagram.com/uberalex">Instagram </a>
+                </p>
+            </div>    
+
+        </div>
+    </div>
+        <footer id="footer">Copyright &copy; 2013 Alexander O'Connor. </footer>
+</div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>	
+    <script src="./js/jquery.slabtext.min.js"></script>
+    <script>
+
+        $(function(){
+            $("h1").slabText({
+                // Don't slabtext the headers if the viewport is under 380px
+                "viewportBreakpoint":380
+            });
+        });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8188014-1']);
+  _gaq.push(['_setDomainName', 'oconnoat.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
